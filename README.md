@@ -1,2 +1,3 @@
 # settings.json
-Configurações do meu Visual Studio Code ;)
+
+Para abrir as configurações em json, pressione *F1* ou *Ctrl + Shift + P* para abrir a paleta de comando e digite "settings.json". Abra a opção "Open Settings (JSON)".
