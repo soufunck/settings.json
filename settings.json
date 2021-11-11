@@ -1,0 +1,45 @@
+{
+    // editor
+    "editor.fontFamily": "JetBrains Mono", // need to download the font!
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "editor.lineHeight": 26,
+    "editor.fontLigatures": true, 
+    "editor.mouseWheelZoom": true, // zoom size control with mouse scroll
+    "editor.minimap.enabled": false, // disable minimap
+
+    // terminal
+    "terminal.integrated.fontSize": 14,
+
+    // workbench
+    "workbench.iconTheme": "material-icon-theme", // folders theme
+    "workbench.colorTheme": "Horizon Dark", // vscode theme
+
+    // window
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": -1, // default zoomLevel
+
+    // liveServer extension (need to install)
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+
+    // explorer
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    // breadcrumbs
+    "breadcrumbs.enabled": true,
+    
+    // default code formats (need to install the extensions)
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+
+    "javascript.updateImportsOnFileMove.enabled": "always",
+}
